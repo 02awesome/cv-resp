@@ -1,0 +1,273 @@
+@import url(https://fonts.google.com/specimen/EB+Garamond#standard-styles);
+
+body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#left{
+    width: 60vw;
+    margin-left: 3%;
+}
+
+#right{
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.name{
+    margin-top: 1em;
+}
+
+h2{
+    color: rgb(80, 152, 235);
+    font-size: 100px;
+    font-family: garamond;
+    height: 20px;
+    margin-top: 0;
+}
+
+h3{
+    color: rgb(4, 1, 41);
+    font-family: garamond;
+    font-size: 30px;
+    border-bottom: 3px solid rgb(4, 1, 41);
+}
+
+h4{
+    height: 10px;
+    font-family: garamond;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile h3{
+    border-bottom: none;
+}
+
+.name h4{
+    color: rgb(4, 1, 41);
+    font-size: 50px;
+    font-family: garamond;
+}
+
+p{
+    font-family: garamond;
+    font-size: 21.5px;
+}
+
+#y1{
+    display: flex;
+    font-family: garamond;
+    font-size: 21.5px;
+}
+
+.list{
+    margin-left: 40px;
+}
+
+.education{
+    margin-top: 2px;
+}
+
+#adress{
+    display: flex;
+    height:50px;
+}
+
+#address{
+    margin-left: 20px;
+}
+
+#right-bottom{
+    background-color: rgb(207, 220, 235);
+    padding: 2em;
+    margin-top: 25px;
+    
+}
+
+.skills{
+    height: 580px;
+}
+
+.interest{
+    height: 170px;
+}
+
+#prof{
+    height: 200px;
+}
+
+#soft{
+    height: 110px;
+}
+
+#lang{
+    height: 100px;
+}
+
+#prof h4{
+    height: 3px;
+}
+
+#prof-skills p{
+    height: 2px;
+}
+
+#intrest p{
+    height: 2px;
+}
+
+#bio p{
+    height: 2px;
+}
+
+@media screen and (max-width: 768px) 
+
+{body{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+}
+
+#left{
+    width: 60vw;
+    margin-left: 3%;
+}
+
+#right{
+    margin-left: 3%;
+}
+
+.name{
+    margin-top: 1em;
+}
+
+h2{
+    color: rgb(80, 152, 235);
+    font-size: 20px;
+    font-family: garamond;
+    height: 8px;
+    margin-top: 0;
+}
+
+h3{
+    color: rgb(4, 1, 41);
+    font-family: garamond;
+    font-size: 10px;
+    border-bottom: 1px solid rgb(4, 1, 41);
+}
+
+h4{
+    height: 10px;
+    font-family: garamond;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.profile h3{
+    border-bottom: none;
+}
+
+.name h4{
+    color: rgb(4, 1, 41);
+    font-size: 13px;
+    font-family: garamond;
+}
+
+p{
+    font-family: garamond;
+    font-size: 9.5px;
+}
+
+#y1{
+    display: flex;
+    font-family: garamond;
+    font-size: 9.5px;
+}
+
+.list{
+    margin-left: 10px;
+}
+
+#mouausc{
+    margin-top: 30px;
+}
+
+.education{
+    margin-top: 2px;
+}
+
+
+#adress{
+    display: flex;
+    height: 20px;
+}
+
+#address{
+    margin-left: 8px;
+}
+
+#right-bottom{
+    background-color: rgb(207, 220, 235);
+    padding: .5em;
+    margin-top: 13px;
+}
+
+#shell{
+    margin-top: 25px;
+}
+
+.skills{
+    height: 260px;
+    margin-top: 2px;
+}
+
+.interest{
+    height: 60px;
+}
+
+#prof{
+    height: 93px;
+}
+
+#soft{
+    height: 55px;
+}
+
+#lang{
+    height: 40px;
+}
+
+#prof h4{
+    height: 2px;
+}
+
+#prof-skills p{
+    height: 2px;
+}
+
+#intrest p{
+    height: 2px;
+}
+
+#bio p{
+    height: 2px;
+}
+}
+
+/*@media  (max-width: 425px) {
+    .work-experience h4{
+        width: 60vw;
+        margin-left: 3%;
+    }
+    
+    #shell{
+        width: 80vw;
+        margin-top: 20px;
+    } 
+}
+
